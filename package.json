@@ -1,0 +1,24 @@
+{
+  "name": "what-the-time",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist.index.d.ts",
+  "homepage": "https://github.com/mpcgt/what-the-time",
+  "repository": {
+    "url": "https://github.com/mpcgt/what-the-time"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "time"
+  ],
+  "author": "mpcgt",
+  "license": "MIT",
+  "description": "Displays live time in terminal",
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.2"
+  }
+}
